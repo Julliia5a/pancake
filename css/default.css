@@ -1,0 +1,60 @@
+@font-face{
+	font-family: blah;
+	src:url(..fonts/Georgia.ttf);
+}
+#image {
+	display: block;
+	height: 300px;
+	background:url('../Image/1.jpg');
+	-webkit-transition: background, 1s;
+}
+#picture {
+	font-family: Georgia;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 0.7em;
+	color:rgb(0,0,0,0);
+
+
+}
+h1 {
+	font-family: Georgia;
+	font-weight: regular;
+	font-size: 1.5em;
+	color:rgb(0,0,0,0);
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	border-top: 1px #B0B0B0 solid;
+	border-bottom: 1px #B0B0B0 solid;
+
+	padding-top: 20px;
+	padding-bottom: 22px;
+}
+
+#container{
+	width: 600px;
+	margin: auto;
+}
+
+.main{
+	font-family: Georgia;
+	font-size: 1em;
+	color: #525252;
+	line-height: 1.5em;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+	text-align: left;
+
+}
+.main + .main {
+	text-indent: 1.5em;
+}
+
+.main:last-child {
+	margin-bottom: 160px;
+	}
+
+.italic {
+	font-style: italic;
+}
